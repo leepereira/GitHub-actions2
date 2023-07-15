@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71a1a07b-beee-47ae-b807-5e57cf5162d5" name="Changes" comment="Created the files for the">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/github-actions-workflow-file.yml" afterDir="false" />
+    <list default="true" id="71a1a07b-beee-47ae-b807-5e57cf5162d5" name="Changes" comment="Created the files for the workflow for GHA">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-workflow-file.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-workflow-file.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,11 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -79,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689450452049</updated>
-      <workItem from="1689450453458" duration="3057000" />
+      <workItem from="1689450453458" duration="4103000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files for the Springboot project">
       <option name="closed" value="true" />
@@ -105,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689453354306</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created the files for the workflow for GHA">
+      <option name="closed" value="true" />
+      <created>1689453545342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689453545342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Files for the Springboot project" />
     <MESSAGE value="Created the files for the" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the files for the" />
+    <MESSAGE value="Created the files for the workflow for GHA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the files for the workflow for GHA" />
   </component>
 </project>
