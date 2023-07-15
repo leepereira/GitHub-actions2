@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71a1a07b-beee-47ae-b807-5e57cf5162d5" name="Changes" comment="Adding Files for the Springboot project">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="71a1a07b-beee-47ae-b807-5e57cf5162d5" name="Changes" comment="Created the files for the">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/github-actions-workflow-file.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -73,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689450452049</updated>
-      <workItem from="1689450453458" duration="2576000" />
+      <workItem from="1689450453458" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files for the Springboot project">
       <option name="closed" value="true" />
@@ -83,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689452518027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Files for the Springboot project">
+      <option name="closed" value="true" />
+      <created>1689453045882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689453045882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created the files for the">
+      <option name="closed" value="true" />
+      <created>1689453354306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689453354306</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Files for the Springboot project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Files for the Springboot project" />
+    <MESSAGE value="Created the files for the" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the files for the" />
   </component>
 </project>
