@@ -42,6 +42,7 @@ jobs:
       run: |
         pwd
         ls -ltr
+        ls -ltr /home/runner/work/course-api-personal-github-gha-explore/course-api-personal-github-gha-explore/build/libs
 
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-app-java:1.1.1
