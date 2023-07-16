@@ -41,6 +41,18 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-app-java:1.1.1
 
+    - name: Build & Push to Docker Hub
+      uses: opspresso/action-docker@master
+      with:
+        args: --docker
+      env:
+        USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        TAG_NAME: "v0.0.1"
+        BUILDX: "true"
+
+
+
 #    - name: Build and Push Docker Image
 #      uses: mr-smithers-excellent/docker-build-push@v4
 #      with:
@@ -48,3 +60,5 @@ jobs:
 #        registry: docker.io
 #        username: ${{ secrets.DOCKER_USERNAME }}
 #        password: ${{ secrets.DOCKER_PASSWORD }}
+
+
