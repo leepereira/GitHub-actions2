@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a1a07b-beee-47ae-b807-5e57cf5162d5" name="Changes" comment="Created the files for the workflow for GHA">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689450452049</updated>
-      <workItem from="1689450453458" duration="10040000" />
+      <workItem from="1689450453458" duration="10174000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files for the Springboot project">
       <option name="closed" value="true" />

@@ -6,7 +6,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the JAR file from the previous build step
-COPY build/libs/*.jar /app/app.jar
+COPY build/libs/*.jar /app/
 
 # Expose the application port (if needed)
 EXPOSE 8080
