@@ -6,7 +6,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the JAR file from the previous build step
-COPY build/libs/course-api-0.0.1.jar.jar /app/
+COPY /home/runner/work/course-api-personal-github-gha-explore/course-api-personal-github-gha-explore/build/libs /app/
 
 # Expose the application port (if needed)
 EXPOSE 8080
