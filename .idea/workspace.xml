@@ -31,11 +31,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -64,6 +64,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "advanced.settings",
+    "spring.configuration.checksum": "584574430f5494d4e1a2805444808f30",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689450452049</updated>
-      <workItem from="1689450453458" duration="11823000" />
+      <workItem from="1689450453458" duration="12503000" />
+      <workItem from="1689548422210" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files for the Springboot project">
       <option name="closed" value="true" />
