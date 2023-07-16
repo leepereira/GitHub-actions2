@@ -6,7 +6,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the JAR file from the previous build step
-COPY build/libs/*.jar /app/
+COPY build/libs/course-api-0.0.1.jar.jar /app/
 
 # Expose the application port (if needed)
 EXPOSE 8080
