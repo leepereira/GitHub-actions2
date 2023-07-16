@@ -39,7 +39,7 @@ jobs:
       run: ./gradlew build
       
     - name: Build the Docker image
-      run: ls -ltr; pwd
+      run: docker build . --file Dockerfile --tag my-app-java:1.1.1
 
 #    - name: Build and Push Docker Image
 #      uses: mr-smithers-excellent/docker-build-push@v4
