@@ -45,8 +45,10 @@ jobs:
         ls -ltr
         ls -ltr $PWD
 
-#    - name: Build the Docker image
-#      run: docker build . --file Dockerfile --tag my-app-java:1.1.1
+    - name: Build the Docker image
+      run: |
+        docker build . --file Dockerfile --tag my-app-java:1.1.1
+        docker images
 #
 #    - name: Build & Push to Docker Hub
 #      uses: opspresso/action-docker@master
