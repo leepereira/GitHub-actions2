@@ -43,7 +43,7 @@ jobs:
         hostname
         pwd
         ls -ltr
-        ls -ltr $PWD
+        ls -ltr $PWD/build/libs
 
     - name: Build the Docker image
       run: |
