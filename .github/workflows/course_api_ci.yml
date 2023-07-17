@@ -52,7 +52,7 @@ jobs:
         container_id=$(docker run -d -p 8080:8080 course-api:1.1.1)
         sleep 30
         docker ps
-        docker logs container_id
+        docker logs $container_id
 #
 #    - name: Build & Push to Docker Hub
 #      uses: opspresso/action-docker@master
