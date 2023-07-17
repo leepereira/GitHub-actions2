@@ -22,23 +22,16 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Check Azure CLI version
-        run: az --version
+      - name: Set up Azure CLI
+        uses: azure/setup-azure-cli@v1
 
-      - name: Update Azure CLI
-        run: az upgrade --yes
+      - name: Azure Login
+        run: az login --service-principal --username ${{ secrets.AZURE_SP_CLIENT_ID }} --password ${{ secrets.AZURE_SP_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_SP_TENANT_ID }}
 
-      # Checks out the repository this file is in
-      - uses: actions/checkout@v3
 
-      # Logs in with your Azure credentials
-      - name: Azure login
-        uses: azure/login@v1.4.6
-        with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
 #      # Use kubelogin to configure your kubeconfig for Azure auth
 #      - name: Set up kubelogin for non-interactive login
