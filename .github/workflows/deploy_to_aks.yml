@@ -11,7 +11,7 @@ env:
 #  CONTAINER_NAME: "your-container-name"
   RESOURCE_GROUP: "1-10013ade-playground-sandbox"
   CLUSTER_NAME: "leonsaks101"
-  DEPLOYMENT_MANIFEST_PATH: "/home/runner/work/course-api-personal-github-gha-explore/course-api-personal-github-gha-explore/deployment.yaml"
+  DEPLOYMENT_MANIFEST_PATH: /home/runner/work/course-api-personal-github-gha-explore/course-api-personal-github-gha-explore/deployment.yaml
 
 jobs:
 
