@@ -47,8 +47,10 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build . --file Dockerfile --tag my-app-java:1.1.1
+        docker build . --file Dockerfile --tag course-api:1.1.1
         docker images
+        docker run -d -p 8080:8080 course-api:1.1.1
+        docker ps
 #
 #    - name: Build & Push to Docker Hub
 #      uses: opspresso/action-docker@master
