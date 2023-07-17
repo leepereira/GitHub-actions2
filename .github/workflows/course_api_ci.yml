@@ -60,7 +60,7 @@ jobs:
 
     - name : Docker Push
       run: | 
-        docker push leepereira/course-api:0.0.2
+        docker push leepereira/course-api:0.0.3
 
 
     # this is the CD part and I think we should separate this out to a different workflow file
