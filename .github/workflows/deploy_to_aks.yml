@@ -11,7 +11,7 @@ env:
 #  CONTAINER_NAME: "your-container-name"
   RESOURCE_GROUP: "1-10013ade-playground-sandbox"
   CLUSTER_NAME: "leonsaks101"
-#  DEPLOYMENT_MANIFEST_PATH: "your-deployment-manifest-path"
+  DEPLOYMENT_MANIFEST_PATH: "deployment.yaml"
 
 jobs:
 
@@ -42,12 +42,12 @@ jobs:
           cluster-name: ${{ env.CLUSTER_NAME }}
           admin: 'false'
           use-kubelogin: 'true'
-#
-#      # Deploys application based on given manifest file
-#      - name: Deploys application
-#        uses: Azure/k8s-deploy@v4
-#        with:
-#          action: deploy
-#          manifests: ${{ env.DEPLOYMENT_MANIFEST_PATH }}
-#          images: |
-#            ${{ env.AZURE_CONTAINER_REGISTRY }}.azurecr.io/${{ env.CONTAINER_NAME }}:${{ github.sha }}
+
+      # Deploys application based on given manifest file
+      - name: Deploys application
+        uses: Azure/k8s-deploy@v4
+        with:
+          action: deploy
+          manifests: ${{ env.DEPLOYMENT_MANIFEST_PATH }}
+          images: |
+            leepereira/course-api:0.0.2
