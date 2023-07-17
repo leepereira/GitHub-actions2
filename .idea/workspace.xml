@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="71a1a07b-beee-47ae-b807-5e57cf5162d5" name="Changes" comment="Created the files for the workflow for GHA">
       <change beforePath="$PROJECT_DIR$/.github/workflows/course_api_ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/course_api_ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/javabrains/springbootstarter/hello/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/springbootstarter/hello/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689450452049</updated>
       <workItem from="1689450453458" duration="12503000" />
-      <workItem from="1689548422210" duration="4616000" />
+      <workItem from="1689548422210" duration="5030000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Files for the Springboot project">
       <option name="closed" value="true" />

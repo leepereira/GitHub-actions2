@@ -12,4 +12,4 @@ COPY build/libs/*.jar /app/
 EXPOSE 8080
 
 # Define the command to run your application
-CMD ["java", "-jar", "course-api-0.0.1.jar"]
+CMD ["java", "-jar", "course-api-0.0.2.jar"]

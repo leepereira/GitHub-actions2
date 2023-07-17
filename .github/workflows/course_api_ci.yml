@@ -47,9 +47,9 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build . --file Dockerfile --tag leepereira/course-api:0.0.1
+        docker build . --file Dockerfile --tag leepereira/course-api:0.0.2
         docker images
-        container_id=$(docker run -d -p 8080:8080 leepereira/course-api:0.0.1)
+        container_id=$(docker run -d -p 8080:8080 leepereira/course-api:0.0.2)
         docker ps
         docker logs $container_id
         
@@ -61,7 +61,7 @@ jobs:
 
     - name : Docker Push
       run: | 
-        docker push leepereira/course-api:0.0.1
+        docker push leepereira/course-api:0.0.2
 
         
 
