@@ -6,11 +6,11 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-#env:
+env:
 #  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
 #  CONTAINER_NAME: "your-container-name"
-#  RESOURCE_GROUP: "your-resource-group"
-#  CLUSTER_NAME: "your-cluster-name"
+  RESOURCE_GROUP: "1-10013ade-playground-sandbox"
+  CLUSTER_NAME: "leonsaks101"
 #  DEPLOYMENT_MANIFEST_PATH: "your-deployment-manifest-path"
 
 jobs:
