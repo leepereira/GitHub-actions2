@@ -16,5 +16,5 @@ EXPOSE 8080
 
 # Define the command to run your application
 #CMD ["java", "-jar", "course-api-${VERSION}.jar"]
-CMD ["java", "-jar", "course-api-0.0.5.jar"]
+CMD ["java", "-jar", "course-api-0.0.7.jar"]
 

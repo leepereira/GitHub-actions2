@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  RESOURCE_GROUP: "1-ee70ca2e-playground-sandbox"
+  RESOURCE_GROUP: "1-ff8a1c0c-playground-sandbox"
   CLUSTER_NAME: "leonsaks101"
   DEPLOYMENT_MANIFEST_PATH: "deployment.yaml"
 
@@ -46,9 +46,9 @@ jobs:
 
     - name: Build the Docker Image
       run: |
-        docker build . --file Dockerfile --tag leepereira/course-api:0.0.5
+        docker build . --file Dockerfile --tag leepereira/course-api:0.0.7
         docker images
-        container_id=$(docker run -d -p 8080:8080 leepereira/course-api:0.0.5)
+        container_id=$(docker run -d -p 8080:8080 leepereira/course-api:0.0.7)
         docker ps
         docker logs $container_id
         
@@ -60,7 +60,7 @@ jobs:
 
     - name : Docker Push
       run: | 
-        docker push leepereira/course-api:0.0.5
+        docker push leepereira/course-api:0.0.7
 
 
     # this is the CD part and I think we should separate this out to a different workflow file
@@ -89,6 +89,6 @@ jobs:
         action: deploy
         manifests: ${{ env.DEPLOYMENT_MANIFEST_PATH }}
         images: |
-          leepereira/course-api:0.0.5
+          leepereira/course-api:0.0.7
         
 
