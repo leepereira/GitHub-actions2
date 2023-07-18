@@ -46,9 +46,9 @@ jobs:
 
     - name: Build the Docker Image
       run: |
-        docker build . --file Dockerfile --tag leepereira/course-api:0.0.4
+        docker build . --file Dockerfile --tag leepereira/course-api:0.0.5
         docker images
-        container_id=$(docker run -d -p 8080:8080 leepereira/course-api:0.0.4)
+        container_id=$(docker run -d -p 8080:8080 leepereira/course-api:0.0.5)
         docker ps
         docker logs $container_id
         
@@ -60,7 +60,7 @@ jobs:
 
     - name : Docker Push
       run: | 
-        docker push leepereira/course-api:0.0.4
+        docker push leepereira/course-api:0.0.5
 
 
     # this is the CD part and I think we should separate this out to a different workflow file
@@ -89,6 +89,6 @@ jobs:
         action: deploy
         manifests: ${{ env.DEPLOYMENT_MANIFEST_PATH }}
         images: |
-          leepereira/course-api:0.0.4
+          leepereira/course-api:0.0.5
         
 
