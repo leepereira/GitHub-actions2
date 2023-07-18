@@ -44,7 +44,7 @@ jobs:
         ls -ltr
         ls -ltr $PWD/build/libs
 
-    - name: Build the Docker image
+    - name: Build the Docker Image
       run: |
         docker build . --file Dockerfile --tag leepereira/course-api:0.0.3
         docker images
