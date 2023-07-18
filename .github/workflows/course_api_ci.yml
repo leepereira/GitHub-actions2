@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  RESOURCE_GROUP: "1-979ac902-playground-sandbox"
+  RESOURCE_GROUP: "1-ee70ca2e-playground-sandbox"
   CLUSTER_NAME: "leonsaks101"
   DEPLOYMENT_MANIFEST_PATH: "deployment.yaml"
 
