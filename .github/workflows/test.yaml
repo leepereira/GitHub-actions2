@@ -1,0 +1,19 @@
+name: Dev Build and Deploy
+permissions:
+  id-token: write
+  contents: read
+on:
+  push:
+    branches:
+    - "main"
+
+jobs:
+  scheckout_remote_repo:
+    runs-on: [self-hosted]
+    steps:
+    - name: checkout the namespaces repo
+      uses: actions/checkout@v3
+      with:
+        repository: leepereira/golang-udemy
+        ref: main
+
